@@ -1,4 +1,4 @@
-{% include mathjax.html %}
+
 
 ## Introduction
 
