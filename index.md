@@ -1,3 +1,5 @@
+{% include mathjax.html %}
+
 ## Introduction
 
 This is an ongoing effort for predicting human attention over webpages. Currently, the project contains a deep saliency baseline model based on ResNet architecture. New models will be added to the repository gradually over time.
