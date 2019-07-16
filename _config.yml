@@ -2,4 +2,4 @@ theme: jekyll-theme-cayman
 title: Webpage Saliency
 description: Predict saliency on webpages using computational models of visual attention
 plugins: Jekyll-Scholar
-
+mathjax: true
