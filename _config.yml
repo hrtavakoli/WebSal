@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman
-title: "Webpage Saliency"
+title: Webpage Saliency
+description: Predict saliency on webpages using computational models of visual attention
+
 
