@@ -9,16 +9,12 @@ It is based on ResNet-50 for encoding images and a decoder consisting of severea
 
 ### Loss functions
 
-We follow the findings of 
+We follow the findings of Bruckert et al.(https://arxiv.org/abs/1907.02336) and employ a loss function which is a linear combination of three terms. The terms are based on KL-divergence, Correlation Coefficient, and Normalized Scan Path. Nevertheless, contrary to previous research, we adjust these terms to ensure not entering negative range values as follows:
+
+$$ L = KLD + (1-\rho) + exp(-NSS) $$
 
 
 
-@inproceedings{Bruckert2019,
-      title = {Deep Saliency Models : The Quest For The Loss Function,
-     author = {Alexandre Bruckert and Hamed R. Tavakoli and Zhi Liu and Marc Christie and Olivier Le Meur},
-       year = {2019},
-  booktitle = {https://arxiv.org/abs/1907.02336}
-}
 
 
 
